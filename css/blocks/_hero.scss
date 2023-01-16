@@ -1,0 +1,34 @@
+.hero{
+    background: url(../../img/decor/headphones-1.png) left 78% center no-repeat, 
+    url(../../img/decor/Rectangle-1.png)right bottom no-repeat;
+    background-color: $grey;
+    height: 100vh;
+    min-height: 652px;
+    color: #292929;
+
+    &__conteiner{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding: 24px 80px 67px;
+    }
+
+    &__main-title{
+        font-size: 48px;
+        line-height: 1.1;
+        font-weight: 700;
+        margin-bottom: 22px;
+        text-transform: uppercase;
+    }
+
+    &__title-desk{
+        font-size: 21px;
+        margin-bottom: 36px;
+        padding-right: 10%;
+    }
+
+    &__title-section{
+        width: 46%;
+    }
+}
