@@ -5,11 +5,14 @@ body {
 
 body{
     font-size: $baseFontSize;
-    font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Play', Arial, Helvetica, sans-serif;
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
+    color: #666666;
+    
+    
 }
 
 .wrapper {
@@ -23,6 +26,7 @@ body{
 .container{
     width: $containerWidth;
     margin: 0 auto;
+    position: relative;
 }
 
 
